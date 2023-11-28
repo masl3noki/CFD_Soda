@@ -1,0 +1,2 @@
+C:\Users\masle\Documents\1_MIPT\ZadachaSoda\x64\Debug\Soda_solver.exe
+C:\Users\masle\Documents\1_MIPT\ZadachaSoda\Code\x64\Debug\Soda_solver.exe
