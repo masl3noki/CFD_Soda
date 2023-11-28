@@ -1,0 +1,116 @@
+\documentclass[a4paper,12pt]{report}
+
+%%%Преамбула
+
+\usepackage{float}
+
+\usepackage{indentfirst} %Красная строка первого абзаца после заголовка
+
+%структура article следующая:
+%part-section-subsection-subsubsection-paragraph-subparagraph
+
+%%%Работа с русским языком
+\usepackage{cmap}					% поиск в PDF
+%\usepackage{mathtext}			%русские буквы в формулах. КИРИЛЛИЦА НЕ ПРЕДУСМОТРЕНА В ЛАТЕХЕ - лучше отключить
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+%%%Шрифты
+\usepackage{euscript}		%шрифт Евклид
+\usepackage{mathrsfs}		%красивый шрифт
+
+%%%Доп работа с математикой
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} %AMS - корень матана
+\usepackage{icomma} % для отображения запятой как разделителя целой и дробной частей числа
+
+%%%Номера формул
+\mathtoolsset{showonlyrefs=true}%Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+
+%%%Свои команды
+\DeclareMathOperator{\sgn}{\mathop{sgn}}
+%СИНТАКСИС: \деклейроператор{названиеКоманды}{чтоНужноСделатьКоманде}
+
+%%%Перенос знаков в формулах (по Львовскому) стр 54 мануала
+%Т.е. если формула имеет разрыв и переходит на новую строку, то по нормам русского языка арифметический знак должен дублироваться (Латех подчиняется американским нормам, где такого правила нет).
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}%
+{\hbox{$\mathsurround=0pt #1$}}{}}
+
+%%%Графика
+\usepackage{graphicx} %для \includegraphics{•}
+%\usepackage[lofdepth,lotdepth]{subfig}
+\graphicspath{{images/}} %теперь пикчи ТеХ будет брать из соответствующей папки в своей домашней папке
+\setlength\fboxsep{3pt} %отступ рамки \fbox{} от рисунка
+\setlength\fboxrule{1pt} %толщина линий рамки \fbox{}
+\usepackage{wrapfig} %обтекание рисунков и таблиц текстом
+\usepackage{subcaption}
+
+%%%Таблицы
+\usepackage{array,tabularx,tabulary,booktabs} %Доп работа с таблицами
+\usepackage{longtable} %длинные таблицы
+\usepackage{multirow} %слияние строк в таблице
+
+%%% Программирование
+\usepackage{etoolbox} % логические операторы
+
+%%% Страница
+%\usepackage{extsizes} % Возможность сделать 14-й шрифт
+\usepackage{geometry} % Простой способ задавать поля
+	\geometry{top=25mm}
+	\geometry{bottom=35mm}
+	\geometry{left=35mm}
+	\geometry{right=20mm}
+
+%\usepackage{fancyhdr} % Колонтитулы
+% 	\pagestyle{fancy}
+% 	\renewcommand{\headrulewidth}{0mm}  % Толщина линейки, отчеркивающей верхний колонтитул
+ 	% \lfoot{Нижний левый}
+ 	% \rfoot{Нижний правый}
+ 	% \rhead{Верхний правый}
+ 	% \chead{Верхний в центре}
+ 	% \lhead{Верхний левый}
+ 	% \cfoot{Нижний в центре} % По умолчанию здесь номер страницы
+
+\usepackage{setspace} % Интерлиньяж
+\onehalfspacing % Интерлиньяж 1.5
+%\doublespacing % Интерлиньяж 2
+%\singlespacing % Интерлиньяж 1
+
+\usepackage{lastpage} % Узнать, сколько всего страниц в документе.
+
+\usepackage{soulutf8} % Модификаторы начертания
+
+\usepackage{hyperref}
+\usepackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}
+\hypersetup{				% Гиперссылки
+    unicode=true,           % русские буквы в раздела PDF
+    pdftitle={Заголовок},   % Заголовок
+    pdfauthor={Автор},      % Автор
+    pdfsubject={Тема},      % Тема
+    pdfcreator={Создатель}, % Создатель
+    pdfproducer={Производитель}, % Производитель
+    pdfkeywords={keyword1} {key2} {key3}, % Ключевые слова
+    colorlinks=true,       	% false: ссылки в рамках; true: цветные ссылки
+    linkcolor=red,          % внутренние ссылки
+    citecolor=green,        % на библиографию
+    filecolor=magenta,      % на файлы
+    urlcolor=cyan           % на URL
+}
+
+%\renewcommand{\familydefault}{\sfdefault} % Начертание шрифта
+
+\usepackage{multicol} % Несколько колонок
+
+\usepackage{enumitem} % Жирные маркеры в begin{enumerate}
+
+%%%Библиография
+
+%\usepackage{cite} % Работа с библиографией (НЕСОВМЕСТИМ С БИБЛАТЕХ)
+%\usepackage[superscript]{cite} % Ссылки в верхних индексах
+%\usepackage[nocompress]{cite} % 
+
+\usepackage[backend=bibtex, bibencoding=utf8, sorting=ynt, maxcitenames=2, style=numeric]{biblatex}
+
+\usepackage{csquotes} % Еще инструменты для ссылок
+
+\usepackage{multicol} % Несколько колонок
