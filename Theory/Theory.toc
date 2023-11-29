@@ -1,26 +1,30 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Основные сокращения и условные обозначения}{3}{part*.2}%
+\contentsline {part}{I\hspace {1em}Структура программы}{4}{part.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Введение}{5}{part*.3}%
+\contentsline {section}{\numberline {1}Структура решения задачи Римана для уравнения Эйлера}{4}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{I\hspace {1em}Структура программы}{6}{part.1}%
+\contentsline {subsection}{\numberline {1.1}Возможные конфигурационные решения}{5}{subsection.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.1}Структура решения задачи Римана для уравнения Эйлера}{7}{section.0.1}%
+\contentsline {subsection}{\numberline {1.2}Соотношения для ударных волн}{5}{subsection.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.1}Возможные конфигурационные решения}{7}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {1.3}Соотношения для волн разрежения}{5}{subsection.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.2}Соотношения для ударных волн}{7}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {1.4}Метод Ньютона}{5}{subsection.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.3}Соотношения для волн разрежения}{8}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {1.5}Распределение физических величин в решении}{5}{subsection.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.4}Метод Ньютона}{8}{subsection.0.1.4}%
+\contentsline {part}{II\hspace {1em}Теория}{6}{part.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.5}Распределение физических величин в решении}{8}{subsection.0.1.5}%
+\contentsline {section}{\numberline {2}Задача Римана для системы уравнений Эйлера}{7}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Теория}{9}{part.2}%
+\contentsline {subsection}{\numberline {2.1}Одномерные уравнения Эйлера в интегральной форме}{8}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.2}Задача римана для системы уравнений Эйлера}{11}{section.0.2}%
+\contentsline {subsection}{\numberline {2.2}Классификация разрывов}{11}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.3}одномерные уравнения Эйлера в интегральной форме}{12}{section.0.3}%
+\contentsline {subsection}{\numberline {2.3}Адиабата Гюгонио и теорема Цемплена}{11}{subsection.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Звуковая волна}{14}{subsection.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Волны Римана}{14}{section.3}%
