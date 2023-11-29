@@ -1,1 +1,15 @@
+%%% QoL переопределения
 \renewcommand{\epsilon}{\varepsilon}
+
+%%% Специфичные знаки с подписями:
+% Знак равно с текстом над ним "lambda > 0"
+\newcommand\lameq{\mathrel{\overset{\makebox[0pt]{\mbox{\normalfont\tiny\sffamily $\lambda > 0$}}}{=}}}
+
+%%% Теоремы, определения и тд:
+% Определение
+\theoremstyle{definition}
+\newtheorem{definition}{Определение}[section]
+
+% Пример
+\theoremstyle{definition}
+\newtheorem{example}{Пример}[section]

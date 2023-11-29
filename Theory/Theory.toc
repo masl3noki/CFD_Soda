@@ -13,10 +13,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {0.1.2}Соотношения для ударных волн}{7}{subsection.0.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.3}Соотношения для волн разрежения}{7}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {0.1.3}Соотношения для волн разрежения}{8}{subsection.0.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.4}Метод Ньютона}{7}{subsection.0.1.4}%
+\contentsline {subsection}{\numberline {0.1.4}Метод Ньютона}{8}{subsection.0.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.1.5}Распределение физических величин в решении}{7}{subsection.0.1.5}%
+\contentsline {subsection}{\numberline {0.1.5}Распределение физических величин в решении}{8}{subsection.0.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Теория}{8}{part.2}%
+\contentsline {part}{II\hspace {1em}Теория}{9}{part.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.2}Задача римана для системы уравнений Эйлера}{11}{section.0.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.3}одномерные уравнения Эйлера в интегральной форме}{12}{section.0.3}%

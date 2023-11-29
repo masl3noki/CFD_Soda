@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.14)  29 NOV 2023 01:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.14)  29 NOV 2023 17:52
 entering extended mode
 **./Theory.tex
 (Theory.tex
@@ -420,7 +420,11 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen157
 \xmathstrut@box=\box51
 \xmathstrut@dim=\dimen158
-) (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/was\icomma.sty
+) (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/cases\cases.sty
+Package: cases 2020/03/29 ver 3.2
+\numc@numwid=\dimen159
+)
+(C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/was\icomma.sty
 Package: icomma 2002/03/10 v2.0 (WaS)
 )
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
@@ -441,11 +445,11 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen159
-\Gin@req@width=\dimen160
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
 ) (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen161
-\WF@size=\dimen162
+\wrapoverhang=\dimen162
+\WF@size=\dimen163
 \c@WF@wrappedlines=\count271
 \WF@box=\box52
 \WF@everypar=\toks31
@@ -459,13 +463,13 @@ Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen163
-\captionmargin@=\dimen164
-\captionwidth=\dimen165
-\caption@tempdima=\dimen166
-\caption@indent=\dimen167
-\caption@parindent=\dimen168
-\caption@hangindent=\dimen169
+\captionmargin=\dimen164
+\captionmargin@=\dimen165
+\captionwidth=\dimen166
+\caption@tempdima=\dimen167
+\caption@indent=\dimen168
+\caption@parindent=\dimen169
+\caption@hangindent=\dimen170
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count272
@@ -477,9 +481,9 @@ Package caption Info: wrapfig package is loaded.
 \c@subtable=\count275
 ) (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
-\col@sep=\dimen170
+\col@sep=\dimen171
 \ar@mcellbox=\box53
-\extrarowheight=\dimen171
+\extrarowheight=\dimen172
 \NC@list=\toks32
 \extratabsurround=\skip59
 \backup@length=\skip60
@@ -488,41 +492,41 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\tabularx.st
 y
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen172
-\TX@old@table=\dimen173
-\TX@old@col=\dimen174
-\TX@target=\dimen175
-\TX@delta=\dimen176
+\TX@col@width=\dimen173
+\TX@old@table=\dimen174
+\TX@old@col=\dimen175
+\TX@target=\dimen176
+\TX@delta=\dimen177
 \TX@cols=\count276
 \TX@ftn=\toks33
 )
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 \TY@count=\count277
-\TY@linewidth=\dimen177
-\tymin=\dimen178
-\tymax=\dimen179
-\TY@tablewidth=\dimen180
+\TY@linewidth=\dimen178
+\tymin=\dimen179
+\tymax=\dimen180
+\TY@tablewidth=\dimen181
 )
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen181
-\lightrulewidth=\dimen182
-\cmidrulewidth=\dimen183
-\belowrulesep=\dimen184
-\belowbottomsep=\dimen185
-\aboverulesep=\dimen186
-\abovetopsep=\dimen187
-\cmidrulesep=\dimen188
-\cmidrulekern=\dimen189
-\defaultaddspace=\dimen190
+\heavyrulewidth=\dimen182
+\lightrulewidth=\dimen183
+\cmidrulewidth=\dimen184
+\belowrulesep=\dimen185
+\belowbottomsep=\dimen186
+\aboverulesep=\dimen187
+\abovetopsep=\dimen188
+\cmidrulesep=\dimen189
+\cmidrulekern=\dimen190
+\defaultaddspace=\dimen191
 \@cmidla=\count278
 \@cmidlb=\count279
-\@aboverulesep=\dimen191
-\@belowrulesep=\dimen192
+\@aboverulesep=\dimen192
+\@belowrulesep=\dimen193
 \@thisruleclass=\count280
 \@lastruleclass=\count281
-\@thisrulewidth=\dimen193
+\@thisrulewidth=\dimen194
 )
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\longtable.s
 ty
@@ -532,7 +536,7 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTpre=\skip63
 \LTpost=\skip64
 \LTchunksize=\count282
-\LTcapwidth=\dimen194
+\LTcapwidth=\dimen195
 \LT@head=\box55
 \LT@firsthead=\box56
 \LT@foot=\box57
@@ -548,7 +552,7 @@ Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
 \multirow@colwidth=\skip65
 \multirow@cntb=\count287
 \multirow@dima=\skip66
-\bigstrutjot=\dimen195
+\bigstrutjot=\dimen196
 )
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -566,14 +570,14 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@cnth=\count289
 \Gm@cntv=\count290
 \c@Gm@tempcnt=\count291
-\Gm@bindingoffset=\dimen196
-\Gm@wd@mp=\dimen197
-\Gm@odd@mp=\dimen198
-\Gm@even@mp=\dimen199
-\Gm@layoutwidth=\dimen256
-\Gm@layoutheight=\dimen257
-\Gm@layouthoffset=\dimen258
-\Gm@layoutvoffset=\dimen259
+\Gm@bindingoffset=\dimen197
+\Gm@wd@mp=\dimen198
+\Gm@odd@mp=\dimen199
+\Gm@even@mp=\dimen256
+\Gm@layoutwidth=\dimen257
+\Gm@layoutheight=\dimen258
+\Gm@layouthoffset=\dimen259
+\Gm@layoutvoffset=\dimen260
 \Gm@dimlist=\toks35
 
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
@@ -593,9 +597,9 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@buffer=\toks39
 \SOUL@token=\toks40
 \SOUL@spaceskip=\skip67
-\SOUL@ttwidth=\dimen260
-\SOUL@uldp=\dimen261
-\SOUL@ulht=\dimen262
+\SOUL@ttwidth=\dimen261
+\SOUL@uldp=\dimen262
+\SOUL@ulht=\dimen263
 )
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
 ty
@@ -642,7 +646,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen263
+\@linkdim=\dimen264
 \Hy@linkcounter=\count292
 \Hy@pagecounter=\count293
  (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
@@ -675,7 +679,7 @@ Package hyperref Info: Bookmarks ON on input line 4717.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen264
+\XeTeXLinkMargin=\dimen265
 
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -686,8 +690,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count296
-\Field@Width=\dimen265
-\Fld@charsize=\dimen266
+\Field@Width=\dimen266
+\Fld@charsize=\dimen267
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -762,29 +766,29 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\svgnam.def
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
-Package hyperref Info: Option `unicode' set `true' on input line 98.
-Package hyperref Info: Option `colorlinks' set `true' on input line 98.
+Package hyperref Info: Option `unicode' set `true' on input line 99.
+Package hyperref Info: Option `colorlinks' set `true' on input line 99.
 
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\multicol.st
 y
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count303
 \mult@box=\box59
-\multicol@leftmargin=\dimen267
+\multicol@leftmargin=\dimen268
 \c@unbalance=\count304
 \c@collectmore=\count305
 \doublecol@number=\count306
 \multicoltolerance=\count307
 \multicolpretolerance=\count308
-\full@width=\dimen268
-\page@free=\dimen269
-\premulticols=\dimen270
-\postmulticols=\dimen271
+\full@width=\dimen269
+\page@free=\dimen270
+\premulticols=\dimen271
+\postmulticols=\dimen272
 \multicolsep=\skip70
 \multicolbaselineskip=\skip71
 \partial@page=\box60
 \last@line=\box61
-\maxbalancingoverflow=\dimen272
+\maxbalancingoverflow=\dimen273
 \mult@rightbox=\box62
 \mult@grightbox=\box63
 \mult@gfirstbox=\box64
@@ -829,9 +833,9 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@minrows=\count309
 \c@columnbadness=\count310
 \c@finalcolumnbadness=\count311
-\last@try=\dimen273
-\multicolovershoot=\dimen274
-\multicolundershoot=\dimen275
+\last@try=\dimen274
+\multicolovershoot=\dimen275
+\multicolundershoot=\dimen276
 \mult@nat@firstbox=\box103
 \colbreak@box=\box104
 \mc@col@check@num=\count312
@@ -839,7 +843,7 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip72
-\enit@outerparindent=\dimen276
+\enit@outerparindent=\dimen277
 \enit@toks=\toks42
 \enit@inbox=\box105
 \enit@count@id=\count313
@@ -1097,7 +1101,10 @@ Package csquotes Info: ... configuration file loaded successfully.
 
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
-))) (import/Preamble/myRenewCommands.tex)
+))) (import/Preamble/myRenewCommands.tex
+\c@definition=\count446
+\c@example=\count447
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1106,9 +1113,13 @@ Package csquotes Info: Redefining alias 'default' -> 'russian'.
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count446
+\l__kernel_color_stack_int=\count448
 \l__pdf_internal_box=\box106
-) (Theory.aux)
+) (Theory.aux
+
+LaTeX Warning: Label `fig_shock_00' multiply defined.
+
+)
 \openout1 = `Theory.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1136,16 +1147,16 @@ LaTeX Info: Redefining \th on input line 6.
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count447
-\scratchdimen=\dimen277
+\scratchcounter=\count449
+\scratchdimen=\dimen278
 \scratchbox=\box107
-\nofMPsegments=\count448
-\nofMParguments=\count449
+\nofMPsegments=\count450
+\nofMParguments=\count451
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count450
-\MPscratchDim=\dimen278
-\MPnumerator=\count451
-\makeMPintoPDFobject=\count452
+\MPscratchCnt=\count452
+\MPscratchDim=\dimen279
+\MPnumerator=\count453
+\makeMPintoPDFobject=\count454
 \everyMPtoPDFconversion=\toks45
 )
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1211,7 +1222,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count453
+\c@section@level=\count455
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
@@ -1271,20 +1282,18 @@ Package biblatex Info: Reference segment=0 on input line 6.
 
 {C:/Users/masle/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]) (Theory.toc<<o
 t1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10
-.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
+
 
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
 
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 
 (C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1301,89 +1310,108 @@ l.14 \newpage
 
 ] [2
 
-]
-
-Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
-d on input line 25.
-
-[3] [4
+] [3] [4
 
 ] [5] [6
 
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 51.
+(hyperref)                than one, level fixed on input line 57.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 57.
+(hyperref)                than one, level fixed on input line 86.
 
-[7] [8
+[7] [8] [9
 
 ]
+LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
+125.
 
-LaTeX Warning: Empty bibliography on input line 82.
+(C:\Users\masle\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmss.fd
+File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Overfull \hbox (25.95175pt too wide) in paragraph at lines 139--140
+[][]\T2A/cmr/bx/n/12 Определение 0.1.1 \T2A/cmr/m/n/12 (За-да-ча о рас-па-де ра
+з-ры-ва)\T2A/cmr/bx/n/12 . []\T2A/cmr/m/n/12 За-да-ча Ко-ши с кусочно-постоянны
+ми
+ []
+
+<example-image.pdf, id=131, 321.2pt x 240.9pt>
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package pdftex.def Info: example-image.pdf  used on input line 145.
+(pdftex.def)             Requested size: 85.35826pt x 64.0183pt.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 150.
+
+[10 <C:/Users/masle/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image.p
+df>]
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package pdftex.def Info: example-image.pdf  used on input line 180.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+ [11]
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package pdftex.def Info: example-image.pdf  used on input line 215.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+ [12]
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package pdftex.def Info: example-image.pdf  used on input line 231.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+ [13]
+
+LaTeX Warning: Empty bibliography on input line 258.
 
 
 AED: lastpage setting LastPage
-(Theory.aux)
+[14] (Theory.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `Theory.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Theory.out':
-(rerunfilecheck)             Before: 1DBB2BD859D8286A4AED0D8647ACD7FC;2728
-(rerunfilecheck)             After:  24CD810091A94E6C0FEF10C01E8EA0C2;2772.
+Package rerunfilecheck Info: File `Theory.out' has not changed.
+(rerunfilecheck)             Checksum: D5503353D18A3B7BA8B9CEA805C86A03;3601.
 Package logreq Info: Writing requests to 'Theory.run.xml'.
 \openout1 = `Theory.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23044 strings out of 479618
- 379050 string characters out of 2865026
- 957825 words of memory out of 3000000
- 39790 multiletter control sequences out of 15000+200000
- 418066 words of font info for 62 fonts, out of 3000000 for 9000
+ 23180 strings out of 479618
+ 381449 string characters out of 2865026
+ 967738 words of memory out of 3000000
+ 39895 multiletter control sequences out of 15000+200000
+ 420716 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,5n,80p,1861b,1806s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.1.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.1.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.1.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.1.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.1.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
-replaced by a fixed one
-
- <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728
-.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx
-1440.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
-labx2488.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
-600\labi1200.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\larm1200.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\labx1200.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/l
-h/lh-t2a/dpi600\lati1200.pk><C:/Users/masle/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/masle/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/masle/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/masle/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Theory.pdf (9 pages, 156949 bytes).
+ 76i,18n,80p,1861b,1804s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm08
+00.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcrm1200.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
+600\labx1728.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
+/dpi600\labx1440.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
+-t2a/dpi600\labx2488.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfour/l
+h/lh-t2a/dpi600\labi1200.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts/pk/
+ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\masle\AppData\Local\MiKTeX\fonts
+/pk/ljfour/lh/lh-t2a/dpi600\lati1200.pk><C:/Users/masle/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/masle/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/masle/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/mas
+le/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/U
+sers/masle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Users/masle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr6.pfb><C:/Users/masle/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr8.pfb><C:/Users/masle/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Users/masle/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/masle/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/masle/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/lm/lmss17.pfb>
+Output written on Theory.pdf (15 pages, 268432 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

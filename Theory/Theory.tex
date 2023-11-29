@@ -18,11 +18,17 @@
 \textbf{Сокращения}
 \begin{itemize}
 \item[НУ] - начальные условия для моделирования задачи или решения уравнений, системы уравнений;
+\item[УВ] - ударная волна;
+\item[КР] - контактный разрыв;
+\item[ВР] - волна разрежения;
 \end{itemize}
 
 \textbf{Условные обозначения}
 \begin{itemize}
-\item [$n^* (\bold{x}, t)$] - число заселенности частиц после столкновений;
+\item [$\rho$] - плотность;
+\item [$v$] - скорость;
+\item [$E$] - энергия на единицу объема;
+\item [$e$] - удельная внутренняя энергия идеального газа;
 \end{itemize}
  
 \newpage
@@ -52,7 +58,30 @@
 
 Уточним задачу Римана: рассмотрим задачу Коши для системы уравнений газовой динамики с разрывом I рода в начальных данных:
 
-формулы!
+\begin{equation}
+	\begin{cases}
+		\frac{\partial \pmb{q}}{\partial t} + \frac{\partial \pmb{f}}{\partial x} = 0\\
+		\pmb{q}(x, 0) =
+		\begin{cases}
+			\pmb{q}_R,&\text{при}\ x>0\\
+			\pmb{q}_L,&\text{при}\ x<0
+		\end{cases}
+	\end{cases}
+\end{equation}
+где:
+\begin{itemize}
+	\item $\pmb{q} = (\rho\quad \rho v\quad E)^T$ - вектор консервативных переменных;
+	\item $\pmb{f} = (\rho v\quad \rho v^2 + p\quad (E+p)v)^T$;
+	\item $E = \frac{\rho v^2}{2} + \rho e$;
+	\item $e = \frac{p}{\rho(\gamma - 1)}$.
+\end{itemize}
+
+Структура решения следующая:
+\begin{enumerate}
+	\item Во входных данных задачи о распаде произвольного разрыва отсутствуют параметры, имеющие размерность длины и времени. Поэтому искомое решение автомодельное;
+	\item Класс автомодельных решений для уравнений Эйлера исчерпывается постоянными решениями, в том числе соединенными через разрыв (КР или УВ), а также ВР;
+	\item В каждую сторону от разрыва может распространяться не более 1 волны, ударной или разрежения.
+\end{enumerate}
 
 \subsection{Возможные конфигурационные решения}\label{sect_configs}
 
@@ -77,6 +106,153 @@
 бебра
 
 \part{Теория}\label{part_theory}
+
+Рассмотрим уравнение переноса в 1D:
+
+\begin{equation}
+	\frac{\partial \pmb{u}}{\partial t} + \frac{\partial \pmb{f}}{\partial x} = 0\\
+\end{equation}
+где
+\begin{itemize}
+	\item $f = \lambda u$ - дифференциальный поток.
+\end{itemize}
+
+Для численного решения применяется конечно-объемный подход: схема метода конечных объемов. Изменение величины за шаг рассчетной ячейки определяется балансом потоков $f$ через грань рассчетной ячейки:
+
+\begin{equation}
+	\begin{cases}
+		\frac{u^{n+1}_{m} - u^{n}_{m}}{\tau} + \frac{1}{h} (f^{n}_{m+\frac{1}{2}}[u^{n}_{m}; u^{n}_{m+1}] - f^{n}_{m-\frac{1}{2}}[u^{n}_{m-1}; u^{n}_{m}])\\
+		f^{n}_{m+\frac{1}{2}}[u^{n}_{m}; u^{n}_{m+1}] = f(u_{\text{exact}}(u^{n}_{m}; u^{n}_{m+1})) \ \lameq \ \lambda u^{n}_{m}\\
+		f^{n}_{m-\frac{1}{2}}[u^{n}_{m-1}; u^{n}_{m}] = f(u_{\text{exact}}(u^{n}_{m-1}; u^{n}_{m+1})) \ \lameq \ \lambda u^{n}_{m-1}\\
+	\end{cases}
+\end{equation}
+где:
+\begin{itemize}
+	\item $f^{n}_{*}[u^{n}_{*}; u^{n}_{*}]$ - численный поток, рассчитанный через метод Годунова;
+	\item $f(u_{\text{exact}}(u^{n}_{*}; u^{n}_{*}))$ - решение задачи Римана.
+\end{itemize}
+
+Существуют различные подходы к построению численного потока $f$: левый уголок. схема Лакса и т.д. Метод Годунова выделяется среди прочих схем: он заключается в расчете потока с использованием точного решения задачи о распаде разрыва.
+
+\begin{definition}
+	[Задача о распаде разрыва]
+	Задача Коши с кусочно-постоянными данными для задачи гиперболического типа.
+\end{definition}
+
+\begin{example}
+	[Принцип работы метода Годунова]
+	
+	\includegraphics[width=3cm]{example-image}
+\end{example}
+
+Каким образом устроено $u_{exact}$ для нелинейных систем уравнений гиперболического типа и конкретно для задачи Эйлера? Ответ на этот вопрос дает краткая теория ниже.
+
+\section{Задача римана для системы уравнений Эйлера}\label{sect_EulerRiemann}
+
+\begin{equation}
+	\begin{cases}
+		\frac{\partial \pmb{q}}{\partial t} + \frac{\partial \pmb{f}}{\partial x} = 0\\
+		\pmb{q}(x, 0) =
+		\begin{cases}
+			\pmb{q}_R,&\text{при}\ x>0\\
+			\pmb{q}_L,&\text{при}\ x<0
+		\end{cases}
+	\end{cases}
+\end{equation}
+где:
+\begin{itemize}
+	\item $\pmb{q} = (\rho\quad \rho v\quad E)^T$ - вектор консервативных переменных;
+	\item $\pmb{f} = (\rho v\quad \rho v^2 + p\quad (E+p)v)^T$;
+	\item $E = \frac{\rho v^2}{2} + \rho e$ - энергия на единицу объема;
+	\item $e = \frac{p}{\rho(\gamma - 1)}$ - удельная внутренняя энергия идеального газа.
+\end{itemize}
+
+\begin{definition}
+	[Автомодельное решение]
+	Решение, зависящее от $(x, t)$ не произвольным образом, а зависящее от некоторого $\xi = f(x,t)$. Такое решение еще называют \textbf{самоподобным}: решение остается подобным себе с течением времени.
+\end{definition}
+
+Решение этой задачи автомодельное - зависит от автомодельной величины $\frac{x}{t}$, т.е. самоподобно течению времени и включает в себя лишь УВ, КР и ВР:
+
+\begin{figure}[H]
+	\centering
+	
+	\includegraphics{example-image}
+	\caption{Все 4 конфигурации течения}
+	\label{fig_4configs}
+\end{figure}
+
+\begin{definition}
+	[Ударная волна]
+	Газодинамический разрыв, который движется внутри среды с постоянной скоростью. Величины $\rho,\ p,\ T,\ v$ испытывают скачок.
+\end{definition}
+
+\begin{definition}
+	[Волна разрежения]
+	Непрерывное решение, ограниченное двумя прямыми линиями. Величины $\rho,\ p,\ T,\ v$ непрерывны.
+\end{definition}
+
+\begin{definition}
+	[Контактный разрыв]
+	Газодинамический разрыв, который движется внутри среды с постоянной скоростью. В отличии от УВ, через КР ет протекания вещества и давление с обеих его сторон одинаково. Контактные разрывы также носят название \textbf{тангенциальный разрыв}. Величины $\rho,\ T,\ v$ испытывают скачок.
+\end{definition}
+
+\section{одномерные уравнения Эйлера в интегральной форме}\label{sect_EulerIntegralEqs}
+
+Уравнения Эйлера не содержат неразрывных решений, все функции дифференцируемы. Поэтому нужно работать с интегральной формой записи:
+
+\begin{numcases}{}\label{eq: COM_int}
+	\oint (pdx - \rho vdt) = 0\\ \label{eq: COMa_int}
+	\oint (\rho vdx - [p + \rho v^2]dt) = 0\\ \label{eq: COMo_int}
+	\oint (\rho [e + \frac{v^2}{2}]dx - \rho v[e + \frac{v^2}{2} + \frac{p}{\rho}]dt) = 0 \label{eq: COE_int}
+\end{numcases}
+
+Течение одномерное и плоское. Вывод интегральной формы (которая в действительности \textbf{первична} дифференциальной) "постулируется"\ и доказывается через систему дифференциальных уравнений и формулу Грина. Рассмотрим разрыв при (x, t) = (0, 0):
+
+\begin{figure}[H]
+	\centering
+	
+	\includegraphics{example-image}
+	\caption{Момент разрыва}
+	\label{fig_shock_00}
+\end{figure}
+
+Рассмотрим пространство (x, t), в котором кривая $PP'$ - траектория разрыва. Тогда смещения на $dx$ задается уравнением:
+
+\begin{equation}\label{eq: COM_int_param}
+	dx = D(t)dt
+\end{equation}
+
+Выберем контур $AA'B'B$ вокруг $PP'$:
+
+\begin{figure}[H]
+	\centering
+	
+	\includegraphics{example-image}
+	\caption{Схематичное изображение траектории разрыва и конура интегрирования}
+	\label{fig_shock_00}
+\end{figure}
+
+Пусть $\Xi = \Xi (\xi)$, где $\xi = \xi(x, t)$ - какой-нибудь интегранд из \refeq{eq: COM_int}. Тогда:
+
+\begin{equation}
+	\oint_{AA'B'B} \Xi d\xi = \oint_{AA'} \Xi d\xi + \oint_{A'B'} \Xi d\xi + \oint_{B'B} \Xi d\xi + \oint_{BA} \Xi d\xi = 0
+\end{equation}
+Далее, устремляем $AA', BB' \rightarrow 0$ и применяем параметризацию \refeq{eq: COM_int_param}:
+
+\begin{equation}
+	\oint_{AA'B'B} \Xi d\xi = \oint_{A'B'} \Xi d\xi + \oint_{BA} \Xi d\xi = \int^{t_2}_{t-1} \Xi_{[0]} d\xi + \int^{t_2}_{t_1} \Xi_{[1]} d\xi = 0
+\end{equation}
+где индексы [0] и [1] означают среды до и после траектории разрыва.
+
+Для \refeq{eq: COMa_int} это будет:
+
+\begin{equation}
+	\int^{t_2}_{t_1} (\rho_0 D dt - \rho_0 v_0 dt) + \int^{t_2}_{t_1} (\rho_1 D dt - \rho_1 v_1 dt) = \int^{t_2}_{t_1} (\rho_0 [D-v_0] - \rho_1 [D-v_1]) dt = 0
+\end{equation}
+
+Т.к. $t$ выбрано произвольно, то интеграл равен 0 только тогда, когда интегранд равен нулю, а значит $(\rho_0 [D-v_0] - \rho_1 [D-v_1]) = 0$.
+
 
 
 \printbibliography
