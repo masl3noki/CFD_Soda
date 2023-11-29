@@ -379,7 +379,80 @@
 
 \section{Волны Римана}
 
-текст
+Будем говорить о характеристическом анализе системы уравнений Эйлера, условий совместности вдоль характеристик и автомодельном решении уравнений Эйлера. Существует две записи системы уравнений Эйлера:
+\begin{itemize}
+	\item Дивергентная векторная форма:
+		\begin{numcases}{}
+			\frac{\partial \pmb{q}}{\partial t} + \frac{\partial \pmb{f}}{\partial x} = 0\\
+			\pmb{q} = (\rho\quad \rho v\quad E)^T\\
+			\pmb{f} = (\rho v\quad \rho v^2 + p\quad (E+p)v)^T\\
+			E = \frac{\rho v^2}{2} + \rho e\\
+			e = \frac{p}{\rho(\gamma - 1)}
+		\end{numcases}
+	\item Дивергентная покомпонентная форма:
+		\begin{numcases}{} \label{eq: COL_diff}
+			\frac{\partial \rho}{\partial t} + \frac{\partial (\rho v)}{\partial x} = 0\\ \label{eq: COMa_diff}
+			\frac{\partial (\rho v)}{\partial t} + \frac{\partial (\rho v^2 + p)}{\partial x} = 0\\ \label{eq: COMo_diff}
+			\frac{\partial (\rho E)}{\partial t} + \frac{\partial ((\rho E - p)v)}{\partial x} = 0 \label{eq: COE_diff}
+		\end{numcases}
+\end{itemize}
+
+\subsection{Система уравнений в частных производных 1 порядка гиперболического типа}
+
+Вектор консервативных переменных: $\pmb{q} = (\rho\quad \rho v\quad E)^T$.
+
+Вектор примитивных переменных: $\pmb{U} = \pmb{w} = (\rho\quad v\quad p)^T$
+
+Рассмотрим уравнение:
+
+\begin{equation}
+	\frac{\partial \pmb{U}}{\partial t} + \pmb{A}(t, x, \pmb{U}) \frac{\partial \pmb{U}}{\partial x} = \pmb{f}(t, x, \pmb{U})
+\end{equation}
+где:
+\begin{itemize}
+	\item $\pmb{U} \in \RealSet^I$
+	\item $\pmb{f} \in \RealSet^I$
+	\item $\pmb{A} \in \RealSet^{I*I}$
+\end{itemize}
+
+\begin{definition}
+	[Уравнение гиперболического типа]
+	Класс дифференциальных уравнений в частных производных, для которых собственные значения $\lambda_i \in \RealSet$, а собственные вектора образуют базис: $|\Omega_R| \neq 0$.
+\end{definition}
+
+Поиск собственных значений и векторов начинается с $\det{\pmb{A} - \lambda \pmb{E}} = 0$, откуда $\lambda_i \in \RealSet, i = \overline{1..I}$. Далее находим соответствующие собственные вектора $\pmb{w}_i \in \RealSet^I$: $(\pmb{A} - \lambda_i \pmb{E}) \pmb{w}_i = 0$.
+
+Мы хотим получить характеристическую покомпонентную форму записи \refeq{eq: COE_diff}. Для этого мы будем почленно дифференцировать слагаемые (как например $\frac{\partial \rho v}{\partial x} = \rho \frac{\partial v}{\partial x} + v \frac{\partial \rho}{\partial x}$) и для \refeq{eq: COE_diff} применим $E = \frac{\rho v^2}{2} + \rho e$ и $e = \frac{p}{\rho(\gamma - 1)}$, как для идеального газа. Получим:
+
+\begin{numcases}{} \label{eq: COL_diff_2}
+	\fracPartial[\rho]{t} + \rho \frac{\partial v}{\partial x} + v \frac{\partial \rho}{\partial x} = 0\\
+	\fracPartial[v]{t} + v \fracPartial[v]{x} + \frac{1}{\rho} \fracPartial[p]{x} = 0\\
+	\fracPartial[p]{t} + \gamma p \fracPartial[v]{x} + v \fracPartial[p]{x} = 0
+\end{numcases}
+
+Систему \refeq{eq: COL_diff_2} можно переписать в матричном виде:
+
+\begin{equation} \label{eq: COL_diff_matrix}
+	\fracPartial[\pmb{w}]{t} + \pmb{A} \fracPartial[w]{x} = 0
+\end{equation}
+где:
+\begin{itemize}
+	\item $\pmb{w} = (\rho\quad v\quad p)^T$ - вектор примитивных переменных;
+	\item $\pmb{A} = \begin{pmatrix}
+		v & \rho & 0\\
+		0 & v & \frac{1}{\rho}\\
+		0 & \gamma p & v
+	\end{pmatrix}$ - матрица примитивных переменных.
+\end{itemize}
+
+Исследование на гиперболичность:
+
+$|\pmb{A} - \lambda \pmb{E}| = 
+\begin{pmatrix}
+	v - \lambda & \rho & 0\\
+	0 & v - \lambda & \frac{1}{\rho}\\
+	0 & \gamma p & v - \lambda
+\end{pmatrix} = (v - \lambda)^3 - \frac{\gamma p}{\rho} (v - \lambda) = 0$
 
 %\printbibliography
 \end{document}
