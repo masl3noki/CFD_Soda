@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.14)  29 NOV 2023 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.14)  30 NOV 2023 21:42
 entering extended mode
 **./Theory.tex
 (Theory.tex
@@ -1333,7 +1333,7 @@ Overfull \hbox (15.45432pt too wide) in paragraph at lines 145--146
 
  []
 
-<example-image.pdf, id=129, 321.2pt x 240.9pt>
+<example-image.pdf, id=149, 321.2pt x 240.9pt>
 File: example-image.pdf Graphic file (type pdf)
 <use example-image.pdf>
 Package pdftex.def Info: example-image.pdf  used on input line 151.
@@ -1370,20 +1370,41 @@ File: example-image.pdf Graphic file (type pdf)
 <use example-image.pdf>
 Package pdftex.def Info: example-image.pdf  used on input line 375.
 (pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
- [14] [15] 
+ [14] [15]
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package pdftex.def Info: example-image.pdf  used on input line 472.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+ [16] [17]
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package pdftex.def Info: example-image.pdf  used on input line 543.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+ [18] [19] [20]
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package pdftex.def Info: example-image.pdf  used on input line 623.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+ [21]
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package pdftex.def Info: example-image.pdf  used on input line 655.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+
+
 AED: lastpage setting LastPage
-[16] (Theory.aux)
+[22] (Theory.aux)
 Package rerunfilecheck Info: File `Theory.out' has not changed.
-(rerunfilecheck)             Checksum: CC96C9C6D78A9B6CB7B0C33F61A63269;4583.
+(rerunfilecheck)             Checksum: 14B0815DC1AD87ACD3C88B9819668FF3;5911.
 Package logreq Info: Writing requests to 'Theory.run.xml'.
 \openout1 = `Theory.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23508 strings out of 479618
- 385629 string characters out of 2865026
- 979452 words of memory out of 3000000
- 40197 multiletter control sequences out of 15000+200000
+ 23573 strings out of 479618
+ 386792 string characters out of 2865026
+ 984668 words of memory out of 3000000
+ 40231 multiletter control sequences out of 15000+200000
  420716 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,18n,80p,1861b,1806s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1410,9 +1431,9 @@ ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/masle/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/masle/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/masle/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Theory.pdf (17 pages, 305830 bytes).
+Output written on Theory.pdf (23 pages, 334834 bytes).
 PDF statistics:
- 635 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 726 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 

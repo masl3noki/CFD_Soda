@@ -30,3 +30,11 @@
 \contentsline {section}{\numberline {3}Волны Римана}{14}{section.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Система уравнений в частных производных 1 порядка гиперболического типа}{15}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Условие совместности вдоль характеристик}{18}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Автомодельное решение уравнения Эйлера и задача Сода}{18}{subsection.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Левый инвариант Римана}{20}{subsection.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5}Правый инвариант Римана}{21}{subsection.3.5}%
