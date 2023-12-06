@@ -147,8 +147,14 @@
 
 \begin{example}
 	[Принцип работы метода Годунова]
+	!!! Описать fig\_GodunovMethod и конкретно красную область.
 	
-	\includegraphics[width=3cm]{example-image}
+	\begin{figure}[h]
+		\centering
+		
+		\includegraphics[width=\textwidth]{fig_GodunovMethod}
+		\label{fig_GodunovMethod}
+	\end{figure}
 \end{example}
 
 Каким образом устроено $u_{exact}$ для нелинейных систем уравнений гиперболического типа и конкретно для задачи Эйлера? Ответ на этот вопрос дает краткая теория ниже.
@@ -183,7 +189,7 @@
 \begin{figure}[H]
 	\centering
 	
-	\includegraphics{example-image}
+	\includegraphics[width=\textwidth]{fig_4configs}
 	\caption{Все 4 конфигурации течения}
 	\label{fig_4configs}
 \end{figure}
@@ -218,7 +224,7 @@
 \begin{figure}[H]
 	\centering
 	
-	\includegraphics{example-image}
+	\includegraphics[width=\textwidth]{fig_shock_initial}
 	\caption{Момент разрыва}
 	\label{fig_shock_initial}
 \end{figure}
@@ -234,7 +240,7 @@
 \begin{figure}[H]
 	\centering
 	
-	\includegraphics{example-image}
+	\includegraphics[width=\textwidth]{fig_shock_loop}
 	\caption{Схематичное изображение траектории разрыва и контура интегрирования}
 	\label{fig_shock_loop}
 \end{figure}
@@ -328,7 +334,7 @@
 \begin{figure}[H]
 	\centering
 	
-	\includegraphics{example-image}
+	\includegraphics[width=\textwidth]{fig_adiaGug}
 	\caption{Адиабата Гюгонио и ее асимптоты}
 	\label{fig_adiaGug}
 \end{figure}
@@ -351,7 +357,7 @@
 \begin{figure}[H]
 	\centering
 	
-	\includegraphics{example-image}
+	\includegraphics[width=\textwidth]{fig_adiaGugPuas}
 	\caption{Адиабаты Гюгонио и Пуассона}
 	\label{fig_adiaGugPuas}
 \end{figure}
@@ -372,7 +378,7 @@
 \begin{figure}[H]
 	\centering
 	
-	\includegraphics{example-image}
+	\includegraphics[width=\textwidth]{fig_adiaGugPuas_2}
 	\caption{Скорость распространения фронта УВ}
 	\label{fig_adiaGugPuas_2}
 \end{figure}
@@ -469,7 +475,7 @@
 \begin{figure}[H]
 	\centering
 	
-	\includegraphics{example-image}
+	\includegraphics[width=\textwidth]{fig_eigenVals}
 	\caption{три характеристики, соответствующие трем собственным значениям}
 	\label{fig_eigenVals}
 \end{figure}
@@ -540,9 +546,9 @@
 \begin{figure}[H]
 	\centering
 	
-	\includegraphics{example-image}
-	\caption{Точное решение (распространение $\rho$) в задаче Сода}
-	\label{fig_Soda_rho}
+	\includegraphics[width=\textwidth]{fig_Soda_rho_p}
+	\caption{Точное решение (распространение $\rho$ и $p$) в задаче Сода}
+	\label{fig_Soda_rho_p}
 \end{figure}
 
 Возвращаясь к поиску решения, найдем производные $\pmb{w}$:
@@ -567,7 +573,7 @@
 
 \begin{definition}
 	[Инвариант Римана]
-	Преобразование исходных переменных, в которых система уравнений ассыпалась на совокупность несвязных уравнений переноса.
+	Преобразование исходных переменных, в которых система уравнений рассыпалась на совокупность несвязных уравнений переноса.
 \end{definition}
 
 Ниже будут исследованы т.н. "левый инвариант Римана"\ и "правый инвариант Римана".
@@ -620,7 +626,7 @@
 \begin{figure}[H]
 	\centering
 	
-	\includegraphics{example-image}
+	\includegraphics[width=\textwidth]{fig_LeftRiemann_graph}
 	\caption{Тип течения, в котором левая волна Римана - ВР}
 	\label{fig_LeftRiemann_graph}
 \end{figure}
@@ -652,7 +658,7 @@
 \begin{figure}[H]
 	\centering
 	
-	\includegraphics{example-image}
+	\includegraphics[width=\textwidth]{fig_RightRiemann_graph}
 	\caption{Тип течения, в котором правая волна Римана - ВР}
 	\label{fig_RightRiemann_graph}
 \end{figure}

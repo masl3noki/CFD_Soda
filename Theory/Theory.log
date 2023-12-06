@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.14)  1 DEC 2023 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.14)  6 DEC 2023 03:35
 entering extended mode
 **./Theory.tex
 (Theory.tex
@@ -1333,67 +1333,86 @@ Overfull \hbox (15.45432pt too wide) in paragraph at lines 145--146
 
  []
 
-<example-image.pdf, id=149, 321.2pt x 240.9pt>
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 151.
-(pdftex.def)             Requested size: 85.35826pt x 64.0183pt.
+<images//fig_GodunovMethod.png, id=149, 575.14874pt x 365.86688pt>
+File: images//fig_GodunovMethod.png Graphic file (type png)
+<use images//fig_GodunovMethod.png>
+Package pdftex.def Info: images//fig_GodunovMethod.png  used on input line 155.
+
+(pdftex.def)             Requested size: 441.01773pt x 280.55159pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [6
 
- <C:/Users/masle/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image.pdf>
-]
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 186.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
- [7] [8]
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 221.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 237.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
- [9] [10] [11]
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 331.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
- [12]
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 354.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+] [7 <./images//fig_GodunovMethod.png>]
+<images//fig_4configs.png, id=166, 738.50906pt x 467.49657pt>
+File: images//fig_4configs.png Graphic file (type png)
+<use images//fig_4configs.png>
+Package pdftex.def Info: images//fig_4configs.png  used on input line 192.
+(pdftex.def)             Requested size: 441.01773pt x 279.17328pt.
+ [8 <./images//fig_4configs.png>]
+<images//fig_shock_initial.png, id=175, 603.75563pt x 283.0575pt>
+File: images//fig_shock_initial.png Graphic file (type png)
+<use images//fig_shock_initial.png>
+Package pdftex.def Info: images//fig_shock_initial.png  used on input line 227.
+
+(pdftex.def)             Requested size: 441.01773pt x 206.75981pt.
+<images//fig_shock_loop.png, id=176, 636.87938pt x 371.88937pt>
+File: images//fig_shock_loop.png Graphic file (type png)
+<use images//fig_shock_loop.png>
+Package pdftex.def Info: images//fig_shock_loop.png  used on input line 243.
+(pdftex.def)             Requested size: 441.01773pt x 257.51755pt.
+
+[9 <./images//fig_shock_initial.png>] [10 <./images//fig_shock_loop.png>]
+[11]
+<images//fig_adiaGug.png, id=208, 741.52031pt x 480.29437pt>
+File: images//fig_adiaGug.png Graphic file (type png)
+<use images//fig_adiaGug.png>
+Package pdftex.def Info: images//fig_adiaGug.png  used on input line 337.
+(pdftex.def)             Requested size: 441.01773pt x 285.65776pt.
+ [12 <./images//fig_adiaGug.png>]
+<images//fig_adiaGugPuas.png, id=218, 762.59906pt x 488.57532pt>
+File: images//fig_adiaGugPuas.png Graphic file (type png)
+<use images//fig_adiaGugPuas.png>
+Package pdftex.def Info: images//fig_adiaGugPuas.png  used on input line 360.
+(pdftex.def)             Requested size: 441.01773pt x 282.54637pt.
  [13]
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 375.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
- [14] [15]
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 472.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
- [16] [17]
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 543.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
- [18] [19] [20]
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 623.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
- [21]
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 655.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+<images//fig_adiaGugPuas_2.png, id=225, 747.54282pt x 419.31656pt>
+File: images//fig_adiaGugPuas_2.png Graphic file (type png)
+<use images//fig_adiaGugPuas_2.png>
+Package pdftex.def Info: images//fig_adiaGugPuas_2.png  used on input line 381.
 
-
+(pdftex.def)             Requested size: 441.01773pt x 247.37541pt.
+ [14 <./images//fig_adiaGugPuas.png>] [15 <./images//fig_adiaGugPuas_2.png>] [1
+6]
+<images//fig_eigenVals.png, id=251, 520.19344pt x 341.77687pt>
+File: images//fig_eigenVals.png Graphic file (type png)
+<use images//fig_eigenVals.png>
+Package pdftex.def Info: images//fig_eigenVals.png  used on input line 478.
+(pdftex.def)             Requested size: 441.01773pt x 289.75552pt.
+ [17 <./images//fig_eigenVals.png>] [18]
+<images//fig_Soda_rho_p.png, id=269, 936.49875pt x 392.21532pt>
+File: images//fig_Soda_rho_p.png Graphic file (type png)
+<use images//fig_Soda_rho_p.png>
+Package pdftex.def Info: images//fig_Soda_rho_p.png  used on input line 549.
+(pdftex.def)             Requested size: 441.01773pt x 184.70628pt.
+ [19 <./images//fig_Soda_rho_p.png>] [20]
+<images//fig_LeftRiemann_graph.png, id=291, 976.39781pt x 379.4175pt>
+File: images//fig_LeftRiemann_graph.png Graphic file (type png)
+<use images//fig_LeftRiemann_graph.png>
+Package pdftex.def Info: images//fig_LeftRiemann_graph.png  used on input line 
+629.
+(pdftex.def)             Requested size: 441.01773pt x 171.37312pt.
+ [21 <./images//fig_LeftRiemann_graph.png>]
+<images//fig_RightRiemann_graph.png, id=301, 898.10532pt x 291.33844pt>
+File: images//fig_RightRiemann_graph.png Graphic file (type png)
+<use images//fig_RightRiemann_graph.png>
+Package pdftex.def Info: images//fig_RightRiemann_graph.png  used on input line
+ 661.
+(pdftex.def)             Requested size: 441.01773pt x 143.06381pt.
+ 
 AED: lastpage setting LastPage
-[22] (Theory.aux)
+[22 <./images//fig_RightRiemann_graph.png>] (Theory.aux)
 Package rerunfilecheck Info: File `Theory.out' has not changed.
 (rerunfilecheck)             Checksum: 14B0815DC1AD87ACD3C88B9819668FF3;5911.
 Package logreq Info: Writing requests to 'Theory.run.xml'.
@@ -1401,10 +1420,10 @@ Package logreq Info: Writing requests to 'Theory.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23573 strings out of 479618
- 386792 string characters out of 2865026
- 983670 words of memory out of 3000000
- 40231 multiletter control sequences out of 15000+200000
+ 23648 strings out of 479618
+ 388855 string characters out of 2865026
+ 983804 words of memory out of 3000000
+ 40303 multiletter control sequences out of 15000+200000
  420716 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,18n,80p,1861b,1806s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1429,11 +1448,10 @@ onts/cm/cmr8.pfb><C:/Users/masle/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/masle/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmsy6.pfb><C:/Users/masle/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/masle/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/masle/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Theory.pdf (23 pages, 334837 bytes).
+Output written on Theory.pdf (23 pages, 566155 bytes).
 PDF statistics:
- 726 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 737 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 

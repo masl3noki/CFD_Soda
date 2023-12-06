@@ -27,9 +27,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4}Звуковая волна}{14}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Волны Римана}{14}{section.3}%
+\contentsline {section}{\numberline {3}Волны Римана}{15}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Система уравнений в частных производных 1 порядка гиперболического типа}{15}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Система уравнений в частных производных 1 порядка гиперболического типа}{16}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Условие совместности вдоль характеристик}{18}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
